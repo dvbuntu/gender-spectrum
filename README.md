@@ -1,4 +1,4 @@
-# Stress vs Gender Identity Explanations
+# Stress Vs Gender Identity Explanations
 
 Gender is a complex multi-faceted expression of many factors not fully captured by a binary "Female" or "Male".  It is still a gross simplification, but suppose we would project what we call gender to a single dimension from Masculine (on the left, say) to Feminine (on the right).  On the far left is ultra masculine, to use western stereotypes: loving sports, excessive drinking, body hair, giving strong handshakes, etc.  As we move to the right, these behaviors moderate and become more feminine (again, to use stereotypes: wearing dresses, being more emotionally supportive, being a mom, speaking with a higher pitch, etc).
 
@@ -30,7 +30,9 @@ Of course, you may have multiple prefences (i.e. local minima).  Maybe you're mu
 
 One thing this curve fails to capture is Genderfluid.  In that situation, you may have a particular stress-gender curve, but it changes in time.  One week it could be masculine preferring, and the next it could be bigender with feminine preference.  It is *dynamic in time*.
 
-# What if You're Trans?
+Further, these kind of diagrams combine many internal and *external* factors.  The society you live in may make life difficult for certain gender identities (e.g. making women second-class citizens, ignoring the existence of non-binary identities, etc).  But, it's still important to understand what your *internal* curve is, so if necessary, you can change yourself or your environment as needed.
+
+# What If You're Trans?
 
 So far, we've only talked about what stress you *would* experience with different gender expression.  But what if you are living at one place on the spectrum (due to cultural norms, medical situations, or whatever), but you'd have a lower stress at another place?
 
@@ -43,3 +45,11 @@ A similar situation can arise for bi/multi-gender individuals.  Again, consider 
 ![Trans Bigender Woman May Transition to Relieve Stress](trans_big_f.png)
 
 # How Do I Figure Out My Stress-Gender Curve?
+
+This is similar to the question of "How do I determine if I am trans?"  Most cis-gendered people are comfortable in their assigned gender, so even asking the question suggests you may not be living at your *global* minimum for stress.
+
+There is not yet a standardized set of experiments/questions to determine your curve (online quiz in the works!).  But you can run your own experiments, be they mental exercises (e.g. "What if I wore a bra?"/"What if had a beard?") or physical tests (e.g. wearing a dress, using different pronouns, etc).
+
+As you do so, consider where each test would put you on the gender spectrum, and how much stress you feel from it.  Start plotting these points.  Over time, you will be see approximately where you curve lies as you explore the stress-gender space.
+
+Recommended Resource: [You And Your Gender Identity](https://discoveryourgenderidentity.com/wp-content/uploads/woocommerce_uploads/2016/06/YOUANDYOURGENDERIDENTITY.pdf) by Dara Hoffman-Fox
