@@ -10,23 +10,25 @@ Consider where you might be on this axis.  Do you present mostly female, but not
 
 At different places on the gender identity spectrum, you may experience different levels of stress.  Or if you prefer to think positively, you experience different levels of happiness.  Perhaps if you identify as female, your Stress-Gender curve looks like this:
 
-![Primarily female stress-gender curve](fem.png)
+![Primarily female stress-gender curve](fem.png){ width=75% }
 
 Just to give some examples, if you're non-binary, maybe your point of minimum stress shifts left (again, this is a simplification!).
 
-![Non-binary stress-gender curve](nb.png)
+![Non-binary stress-gender curve](nb.png){ width=75% }
 
 Of course, gender identity can be more complex than this.  Perhaps you are somewhat comfortable with both male and female traits, but the space in between is uncomfortable.  This is a form of *bigender*:
 
-![Bigender balanced stress-gender curve](big_mf.png)
+![Bigender balanced stress-gender curve has multiple local minima](big_mf.png){ width=75% }
 
 Even in this situation, one might still have lower stress in one place on the gender spectrum.  Perhaps you are bigender with a female preference:
 
-![Bigender with Female preference stress-gender curve](big_f.png)
+![Bigender with Female preference stress-gender curve](big_f.png){ width=75% }
 
 Of course, you may have multiple prefences (i.e. local minima).  Maybe you're multi-gender with a stress-gender curve like this:
 
-![Multi-gender stress-gender curve](tri_m.png)
+![Multi-gender stress-gender curve](tri_m.png){ width=75% }
+
+There are many possible gender identities; these are just a few examples to demonstrate the utility of the stress-gender curve.  If your identity isn't listed, see if you can sketch what the curve may look like!
 
 One thing this curve fails to capture is Genderfluid.  In that situation, you may have a particular stress-gender curve, but it changes in time.  One week it could be masculine preferring, and the next it could be bigender with feminine preference.  It is *dynamic in time*.
 
@@ -38,11 +40,11 @@ So far, we've only talked about what stress you *would* experience with differen
 
 For example, perhaps you were AFAB, but you know you have a masculine gender-identity.  You may be stressed by having to live as a woman (perhaps you cannot safely transition nor socially present as male).  
 
-![Trans Man Stressed When Presenting Female](trans_masc.png)
+![Trans Man Stressed When Presenting Female](trans_masc.png){ width=75% }
 
 A similar situation can arise for bi/multi-gender individuals.  Again, consider if you're AMAB and bigender with a female preference.  Maybe you've been living as a man (because you hadn't figured out your gender identity, say), but realized what your stress-gender curve actually is.  Sure, you *could* continue presenting male; it wouldn't be as miserable as for the above trans man forced to present female.  But you're not living life to its fullest; and you'd be living with a constant stress just from existing.  If you can transition to a more feminine state, you may realize lower stress, more happiness, and more fulfillment.
 
-![Trans Bigender Woman May Transition to Relieve Stress](trans_big_f.png)
+![Trans Bigender Woman May Transition to Relieve Stress](trans_big_f.png){ width=75% }
 
 # How Do I Figure Out My Stress-Gender Curve?
 
