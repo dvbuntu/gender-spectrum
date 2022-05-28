@@ -24,7 +24,7 @@ def make_multi(mins, weights, x, sig=None):
 ## test quadplot, still works, but not as nice
 #plt.plot(x, -make_multi([.2,.4,.6, .8], [1,2,1,2], x))
 
-def make_plot(mins=None, weights=None, sig=None, n=100, x=None, y=None, title='Stress and the Gender Spectrum'):
+def make_plot(mins=None, weights=None, sig=None, n=100, x=None, y=None, title='Dysphoria and the Gender Spectrum'):
     '''
     Make spectrum plot given points on [0,1] (mins) with given weights.
 
@@ -37,14 +37,14 @@ def make_plot(mins=None, weights=None, sig=None, n=100, x=None, y=None, title='S
     if x is None:
         x = np.linspace(0,1,n)
     if y is None:
-        y = -make_multi(mins, weights, x, sig=sig)
+        y = make_multi(mins, weights, x, sig=sig)
     fig = plt.figure()
     plt.plot(x,y)
     plt.ylabel('Stress')
     ym = np.min(y)
     yM = np.max(y)
-    plt.yticks([ym, (yM-ym)/2 + ym, yM], ['Low', 'Neutral', 'High'])
-    plt.xlabel('Gender Identity')
+    plt.yticks([ym, (yM-ym)/2 + ym, yM], ['Dysphoric', 'Neutral', 'Euphoric'])
+    plt.xlabel('Gender Expression')
     plt.xticks(np.linspace(0,1,5), ['M','m', 'NB', 'f', 'F'])
     plt.title(title)
     return fig
@@ -67,15 +67,15 @@ agen.savefig('agen.png')
 masc = make_plot([.25], [1], sig=.15, title='Masc Preference')
 masc.savefig('masc.png')
 # add some notes
-masc.axes[0].annotate('AFAB raised here...',
-            xy=(.75, .95), xycoords='axes fraction',
-            xytext=(-100, 0), textcoords='offset points',
+masc.axes[0].annotate("He'd be happier here...",
+            xy=(.3, .95), xycoords='axes fraction',
+            xytext=(200, 0), textcoords='offset points',
             arrowprops=dict(facecolor='black', shrink=0.05),
             horizontalalignment='right', verticalalignment='bottom')
 
-masc.axes[0].annotate("But he'd be happier here...",
-            xy=(.3, .05), xycoords='axes fraction',
-            xytext=(200, 0), textcoords='offset points',
+masc.axes[0].annotate('But AFAB raised here',
+            xy=(.75, .05), xycoords='axes fraction',
+            xytext=(-100, 0), textcoords='offset points',
             arrowprops=dict(facecolor='black', shrink=0.05),
             horizontalalignment='right', verticalalignment='bottom')
 masc.savefig('trans_masc.png')
@@ -85,14 +85,14 @@ big_f = make_plot([.25,.75], [1,2], title='Bigender Fem Preference')
 big_f.savefig('big_f.png')
 # add some notes
 big_f.axes[0].annotate('AMAB living here...',
-            xy=(.27, .55), xycoords='axes fraction',
+            xy=(.27, .45), xycoords='axes fraction',
             xytext=(30, 100), textcoords='offset points',
             arrowprops=dict(facecolor='black', shrink=0.05),
             horizontalalignment='right', verticalalignment='bottom')
 
-big_f.axes[0].annotate("But she'd be happier here...",
-            xy=(.73, .05), xycoords='axes fraction',
-            xytext=(-100, 0), textcoords='offset points',
+big_f.axes[0].annotate("But she'd be happier here",
+            xy=(.73, .97), xycoords='axes fraction',
+            xytext=(0, -200), textcoords='offset points',
             arrowprops=dict(facecolor='black', shrink=0.05),
             horizontalalignment='right', verticalalignment='bottom')
 big_f.savefig('trans_big_f.png')
